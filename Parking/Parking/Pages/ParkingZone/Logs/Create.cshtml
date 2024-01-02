@@ -1,0 +1,83 @@
+﻿@page
+@model Parking.Pages.ParkingZone.Logs.CreateModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+<body>
+    <div class="container mt-3">
+        <h2>Create Log</h2>
+        <form method="post" asp-page-handler="OnPostAsync">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="NewLog.DeviceName">DeviceName:</label>
+                        <input asp-for="NewLog.DeviceName" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="NewLog.CameraName">CameraName:</label>
+                        <input asp-for="NewLog.CameraName" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="NewLog.Address">Address:</label>
+                        <input asp-for="NewLog.Address" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="NewLog.Person">Person:</label>
+                        <input asp-for="NewLog.Person" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="NewLog.Car">Car:</label>
+                        <input asp-for="NewLog.Car" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="NewLog.Motorbike">Motorbike:</label>
+                        <input asp-for="NewLog.Motorbike" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="NewLog.Timestamp">Timestamp:</label>
+                        <input asp-for="NewLog.Timestamp" type="datetime-local" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+
+
+                    <div class="form-group">
+                        <label asp-for="NewLog.ZoneId">ZoneId:</label>
+                        <input asp-for="NewLog.ZoneId" class="form-control" />
+                    </div>
+
+
+                    <div class="form-group">
+                        <label asp-for="NewLog.Truck">Truck:</label>
+                        <input asp-for="NewLog.Truck" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="NewLog.Misc">Misc:</label>
+                        <input asp-for="NewLog.Misc" class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="NewLog.Type">Type:</label>
+                        <select asp-for="NewLog.Type" asp-items="Html.GetEnumSelectList<Parking.Models.LogType>()" class="form-control"></select>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="NewLog.Parameters">Parameters:</label>
+                        <input asp-for="NewLog.Parameters" class="form-control" />
+                    </div>
+
+
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">SAVE</button>
+                    <a asp-page="./Index" class="btn btn-outline-danger">BACK TO LIST</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>

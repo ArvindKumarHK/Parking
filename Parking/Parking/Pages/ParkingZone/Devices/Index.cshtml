@@ -1,0 +1,152 @@
+﻿@page
+@model Parking.Pages.ParkingZone.Devices.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Devices</h1>
+</div>
+
+<div class="container">
+    <div class="create-button-container mb-3">
+        <a asp-page="./Create" class="btn btn-sm btn-outline-primary me-2">
+            <i class="fas fa-plus"></i> CREATE A DEVICE
+        </a>
+    </div>@if (Model.Devices != null && Model.Devices?.Count() > 0)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Network</th>
+                    <th>Node</th>
+                    <th>PowerInputType</th>
+                    <th>Power %</th>
+                    <th>LastValue</th>
+                    <th>LastPing</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var device in Model.Devices)
+                {
+                    <tr>
+                        <td>@device.Id</td>
+                        <td>@device.Name</td>
+                        <td>@device.Location</td>
+                        <td>@device.Network</td>
+                        <td>@device.Node</td>
+                        <td>@device.PowerInputType</td>
+
+                        <td>
+                            @(device.PowerState < 0 && device.PowerState > 100 ? "100 %" : $"{device.PowerState} %")
+                        </td>
+
+                        <td>
+                            @{
+                                string param = device.LastValue ?? "-";
+                                if (!string.IsNullOrEmpty(param) && param.StartsWith("{"))
+                                {
+                                    var formattedParam = System.Text.Json.JsonSerializer.Deserialize<Dictionary<string, string>>(param);
+                                    var json = System.Text.Json.JsonSerializer.Serialize(
+                                    formattedParam,
+                                    new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
+                                    param = json.Substring(1, json.Length - 2);
+                                }
+                                if (param.Length == 0)
+                                {
+                                    param = "-";
+                                }
+                            }
+                            <div class="text-truncate" style="max-width:200px;"
+                                 data-bs-toggle="tooltip" data-bs-placement="top"
+                                 data-bs-title="@param">
+                                @param
+                            </div>
+
+                        </td>
+                        <td class="date-time">
+                            @{
+                                var lastAlivePing = "-";
+                                if (device.LastAlivePing != null && device.LastAlivePing != DateTime.MinValue)
+                                {
+                                    lastAlivePing = device.LastAlivePing.Value.ToString("yyyy-dd-M HH:mm:ss");
+                                }
+                            }
+                            @lastAlivePing
+                        </td>
+
+
+                        <td>
+                            <a asp-page="./Edit" asp-route-id="@device.Id" class="btn btn-outline-success btn-sm">Edit</a>
+
+                            <form method="post" asp-page-handler="Delete" asp-route-id="@device.Id" onsubmit="return confirm('Are you sure you want to delete this device?');" class="d-inline">
+                                <button type="submit" class="btn btn-outline-danger btn-sm">Delete</button>
+                            </form>
+
+
+                        </td>
+
+                        @*<td>
+                @if (User.IsInRole("Admin"))
+                {
+                <a asp-page="./Edit" asp-route-id="@device.Id" class="btn btn-outline-success btn-sm">Edit</a>
+                <a asp-page="./Delete" asp-route-id="@device.Id" class="btn btn-outline-danger btn-sm">Delete</a>
+
+                }
+                </td>*@
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    }
+    else
+    {
+        <hr />
+
+        <p class="lead">There are no Devices to display</p>
+    }
+
+</div>
+
+<style>
+    .create-button-container {
+        margin-top: 10px;
+    }
+
+    .create-device-button {
+        background-color: skyblue;
+        color: #fff;
+        border: none;
+        padding: 8px 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        transition: background-color 0.3s;
+    }
+
+        .create-device-button:hover {
+            background-color: #218838;
+        }
+
+    .fa {
+        margin-right: 5px;
+    }
+
+    .card {
+        margin-top: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+</style>

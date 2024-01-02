@@ -1,0 +1,50 @@
+﻿@page
+@model Parking.Pages.ParkingZone.Timeline.IndexModel
+@{
+    ViewData["Title"] = "Timeline";
+}
+
+<form method="get" asp-page="./Index" asp-route-handler="OnGetAsync">
+    <div class="container">
+        <h1 class="display-4">Timeline</h1>
+        <div class="row g-3 align-items-center">
+            <div class="col-sm-3">
+                <label class="form-label" style="font-size: 10px;">Start Date</label>
+                <input class="form-control form-control-sm" type="datetime-local" placeholder="Start Date" id="StartDate" name="StartDate" />
+            </div>
+            <div class="col-sm-3">
+                <label class="form-label" style="font-size: 10px;">End Date</label>
+                <input class="form-control form-control-sm" type="datetime-local" placeholder="End Date" id="EndDate" name="EndDate" />
+            </div>
+            <div class="col-sm-3">
+                <label class="form-label" style="font-size: 10px;">Select Camera</label>
+                <select class="form-select form-select-sm" id="CameraId" name="CameraId">
+                    <option selected="selected" value="">Camera</option>
+                    <option value="8">Camera1</option>
+                    <option value="8">Camera2</option>
+                </select>
+            </div>
+            <div class="col-sm-3 d-flex align-items-end" style="padding-top: 30px;">
+                <button class="btn btn-sm btn-success me-2" style="height: 30px; min-width: 80px;">FILTER</button>
+                <button class="btn btn-sm btn-danger me-2" style="height: 30px; min-width: 80px;">CLEAR</button>
+                <input hidden="" name="NextPageNumber" value="3">
+                <input type="submit" class="btn btn-sm btn-outline-primary me-2" style="height: 30px; min-width: 80px;" value="< PREV">
+                <input type="submit" class="btn btn-sm btn-outline-primary" style="height: 30px; min-width: 80px;" value="NEXT >">
+            </div>
+        </div>
+    </div>
+</form>
+
+
+@* <div id="defaultContainer" class="default-container">
+    <div class="timeline-container" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+        @for (var i = 0; i < Model.ImagePaths.Count; i++)
+        {
+            <div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+                <img src="@Model.ImagePaths[i]" style="width: 80%; height: 60%; margin-bottom: 5px;" alt="Image">
+                <div class="cameraname">@Model.CameraNames[i]</div>
+                <div class="timestamp">@Model.TimeStamps[i]</div>
+            </div>
+        }
+    </div>
+</div> *@

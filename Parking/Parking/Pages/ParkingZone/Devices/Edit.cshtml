@@ -1,0 +1,126 @@
+﻿@page
+@model Parking.Pages.ParkingZone.Devices.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="card">
+    <div class="card-body">
+        <h1>Create Device</h1>
+        <form method="post">
+            <input type="hidden" asp-for="Devices.Id" />
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Devices.Name"></label>
+                        <input asp-for="Devices.Name" class="form-control" />
+                        <span asp-validation-for="Devices.Name" class="text-danger form-validation-text"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Devices.Network"></label>
+                        <input asp-for="Devices.Network" class="form-control" />
+                        <span asp-validation-for="Devices.Network" class="text-danger form-validation-text"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Devices.PowerInputType"></label>
+                        <input asp-for="Devices.PowerInputType" class="form-control" />
+                        <span asp-validation-for="Devices.PowerInputType" class="text-danger form-validation-text"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Devices.LastValue"></label>
+                        <input asp-for="Devices.LastValue" class="form-control" />
+                        <span asp-validation-for="Devices.LastValue" class="text-danger form-validation-text"></span>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="form-group">
+                        <label asp-for="Devices.Location"></label>
+                        <input asp-for="Devices.Location" class="form-control" />
+                        <span asp-validation-for="Devices.Location" class="text-danger form-validation-text"></span>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <label asp-for="Devices.Node"></label>
+                        <input asp-for="Devices.Node" class="form-control" />
+                        <span asp-validation-for="Devices.Node" class="text-danger form-validation-text"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Devices.PowerState"></label>
+                        <input asp-for="Devices.PowerState" class="form-control" />
+                        <span asp-validation-for="Devices.PowerState" class="text-danger form-validation-text"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Devices.LastAlivePing"></label>
+                        <input asp-for="Devices.LastAlivePing" class="form-control" />
+                        <span asp-validation-for="Devices.LastAlivePing" class="text-danger form-validation-text"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">UPDATE</button>
+                    <a asp-page="./Index" class="btn btn-danger">BACK TO LIST</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+<style>
+    .card {
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: bold;
+        color: #333;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .text-danger {
+        color: #dc3545;
+    }
+
+    .form-validation-text {
+        font-size: 12px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: #fff;
+    }
+</style>
