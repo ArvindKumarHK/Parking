@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Downloads\\ASP.NET\\Parking\\Parking\\Parking.csproj": {}
+    "C:\\Users\\arvnd\\Downloads\\Parking\\Parking\\Parking\\Parking.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Downloads\\ASP.NET\\Parking\\Parking\\Parking.csproj": {
+    "C:\\Users\\arvnd\\Downloads\\Parking\\Parking\\Parking\\Parking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\ASP.NET\\Parking\\Parking\\Parking.csproj",
+        "projectUniqueName": "C:\\Users\\arvnd\\Downloads\\Parking\\Parking\\Parking\\Parking.csproj",
         "projectName": "Parking",
-        "projectPath": "C:\\Users\\ADMIN\\Downloads\\ASP.NET\\Parking\\Parking\\Parking.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Downloads\\ASP.NET\\Parking\\Parking\\obj\\",
+        "projectPath": "C:\\Users\\arvnd\\Downloads\\Parking\\Parking\\Parking\\Parking.csproj",
+        "packagesPath": "C:\\Users\\arvnd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arvnd\\Downloads\\Parking\\Parking\\Parking\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\arvnd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

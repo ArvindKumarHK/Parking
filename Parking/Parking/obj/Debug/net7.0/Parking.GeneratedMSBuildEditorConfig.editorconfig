@@ -9,107 +9,107 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Parking
 build_property.RootNamespace = Parking
-build_property.ProjectDir = C:\Users\ADMIN\Downloads\ASP.NET\Parking\Parking\
+build_property.ProjectDir = C:\Users\arvnd\Downloads\Parking\Parking\Parking\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ADMIN\Downloads\ASP.NET\Parking\Parking
+build_property.MSBuildProjectDirectory = C:\Users\arvnd\Downloads\Parking\Parking\Parking
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/Error.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/Index.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/ParkingZone/CameraLogs/Create.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/ParkingZone/CameraLogs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZ1pvbmVcQ2FtZXJhTG9nc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/ParkingZone/CameraLogs/Index.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/ParkingZone/CameraLogs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZ1pvbmVcQ2FtZXJhTG9nc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/ParkingZone/Cameras/Create.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/ParkingZone/Cameras/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZ1pvbmVcQ2FtZXJhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/ParkingZone/Cameras/Edit.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/ParkingZone/Cameras/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZ1pvbmVcQ2FtZXJhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/ParkingZone/Cameras/Index.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/ParkingZone/Cameras/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZ1pvbmVcQ2FtZXJhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/ParkingZone/Dashboard/Index.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/ParkingZone/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZ1pvbmVcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/ParkingZone/DeviceDashboard/Index.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/ParkingZone/DeviceDashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZ1pvbmVcRGV2aWNlRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/ParkingZone/Devices/Create.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/ParkingZone/Devices/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZ1pvbmVcRGV2aWNlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/ParkingZone/Devices/Edit.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/ParkingZone/Devices/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZ1pvbmVcRGV2aWNlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/ParkingZone/Devices/Index.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/ParkingZone/Devices/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZ1pvbmVcRGV2aWNlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/ParkingZone/Home/Index.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/ParkingZone/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZ1pvbmVcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/ParkingZone/Logs/Create.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/ParkingZone/Logs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZ1pvbmVcTG9nc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/ParkingZone/Logs/Index.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/ParkingZone/Logs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZ1pvbmVcTG9nc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/ParkingZone/Timeline/Index.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/ParkingZone/Timeline/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZ1pvbmVcVGltZWxpbmVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/ParkingZone/Users/Create.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/ParkingZone/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZ1pvbmVcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/ParkingZone/Users/Edit.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/ParkingZone/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZ1pvbmVcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/ParkingZone/Users/Index.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/ParkingZone/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFya2luZ1pvbmVcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/Privacy.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/_ViewImports.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/_ViewStart.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ADMIN/Downloads/ASP.NET/Parking/Parking/Pages/Shared/_Layout.cshtml]
+[C:/Users/arvnd/Downloads/Parking/Parking/Parking/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-kuemg2lava
